@@ -59,7 +59,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: var(--text-color);
 }
 
 body.dark-theme {
@@ -181,6 +181,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
+    color: #fff;
     transition: 0.5s;
   }
 }
