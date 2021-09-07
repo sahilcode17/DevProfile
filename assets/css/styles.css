@@ -68,13 +68,9 @@ body.dark-theme {
 }
 .btn-toggle {
   display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: 0.75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: 0.5rem;
-  border-style: none;
   margin: 0%;
+  font-size: xx-large;
+  color: var(--text-color) !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -255,7 +251,7 @@ img {
   color: var(--text-color) !important;
 }
 .home__social-icon:hover {
-  color: var(--first-color);
+  color: var(--first-color) !important;
 }
 .home__img {
   position: absolute;
@@ -335,10 +331,10 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 80%;
 }
 .skills__css {
-  width: 85%;
+  width: 75%;
 }
 .skills__js {
   width: 65%;
