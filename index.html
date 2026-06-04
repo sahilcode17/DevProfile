@@ -1,270 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="color-scheme" content="dark light">
-
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-        <title>Sahil Khandelwal</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Sahil</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Experience</a></li>
-                        <li class="nav__item"><i  onclick="myFunction(this)" class='btn-toggle bx bxs-toggle-left'></i></li>
-                    </ul>
-                </div>
-                <script>
-                    function myFunction(x) {
-                      x.classList.toggle("btn-toggle bx bx-toggle-right");
-                    }
-                    </script>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sahil</span><br> Software Engineer</h1>
-
-                    <a href="mailto:khandelwalsahil09@gmail.com" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/sahil-khandelwal-91b350b7/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://twitter.com/sahilcode" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://github.com/sahilcode17" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" width="100%" height="100%" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/dp.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Hi there 👀</h2>
-                        <p class="about__text">Self-motivated Software engineering , with a track record of consistent results-orientation, looking forward to contributing fresh ideas to the Computer Industry to solve existing problems and developing innovative solutions.
-                          <br><br>  Hands on experience in developing Production ready full stack application in More than 1 framework such as Flask, Nodejs, Reactjs etc . <br>
-                            Hands on Programming experience in Javascript, Java, Python . </p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Experience in Software Engineering,
-                            Product Management and
-                            Analytics/Statistics</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code skills__icon'></i>
-                                <span class="skills__name">Programming - Java</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-react skills__icon'></i>
-                                <span class="skills__name">MERN stack</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code-alt skills__icon' ></i>
-                                <span class="skills__name">Mysql & postgres</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                            
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code-alt skills__icon' ></i>
-                                <span class="skills__name">Kafka & SpringBoot</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-terminal skills__icon'></i>
-                                <span class="skills__name">Machine & Deep Learning</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">60%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-                
-                <div class="work__container bd-grid" >
-                    <div class="work__img">
-                        <a href="https://sahilgoalsapp.herokuapp.com/login">  <img src="assets/img/goals.png" alt=""></a>
-                      
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/sahilcode17/fitme"><img src="https://user-images.githubusercontent.com/42516515/98462694-24de4400-21dc-11eb-95c1-0cb571b87b46.PNG" alt=""></a>
-                        
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/sahilcode17/safEco"> <img src="assets/img/home.PNG" alt="" width="100%" height="100%"></a>
-                       
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/sahilcode17/DigitalProducts"><img src="assets/img/windo.PNG" alt=""></a>
-                        
-                    </div>
-                    <div class="work__img">
-                        <a href="https://sahilcode17.github.io/acm-website/"> <img src="assets/img/acm.PNG" alt=""></a>
-                       
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/sahilcode17/SoundMaven"><img src="assets/img/audio.png" alt=""></a>
-                        
-                    </div>
-                    
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Experience & Achievments</h2>
-
-               <div class="work__container bd-grid">
-                <div class="card">
-                    <img src="assets/img/INDmoney.jpg">
-                    <div class="container">
-                      <h4><b>INDmoney</b></h4>
-                      <p>SDE Intern</p>
-                      <p>Sep 20 2021 -June 18 2022</p>
-                    </div>
-                  </div>
-                <div class="card">
-                    <img src="assets/img/tradegrub.jfif">
-                    <div class="container">
-                      <h4><b>TradeGrub</b></h4>
-                      <p>Mobile Application Developer Intern</p>
-                      <p>Oct 1 2020 -Jan 5 2021</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="assets/img/acmwork.png">
-                    <div class="container">
-                      <h4><b>Acm Student Chapter</b></h4>
-                      <p>Technical Head</p>
-                      <p>November 2019 – September 2020</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="assets/img/codein.jpg">
-                    <div class="container">
-                      <h4><b>Google Code-in</b></h4>
-                      <p>Mentor Under TenserFlow</p>
-                      <p>Dec 2019 – March 2020</p>
-
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="assets/img/ieee.png" alt="Avatar" style="width:100%">
-                    <div class="container">
-                      <h4><b>IEEE</b></h4>
-                      <p>Research Paper Published - Fitme</p>
-                      <p>Click here -><a href="https://ieeexplore.ieee.org/document/9478168"> To access the Research Paper</a></p>
-
-                    </div>
-                  </div>
-                  
-                   
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Dm on below platform for Collaboration! </p>
-            <div class="footer__social">
-                <a href="https://www.instagram.com/sahil.khandelwal__/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.linkedin.com/in/sahil-khandelwal-91b350b7/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://twitter.com/sahilcode" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://github.com/sahilcode17" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                
-            </div>
-            <p>Stay Hungry Stay Foolish</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f0a06" />
+    <meta
+      name="description"
+      content="Sahil Khandelwal — Software Engineer. Distributed systems, EDI invoice automation, AI agent infrastructure. Currently building at Ottimate."
+    />
+    <meta property="og:title" content="Sahil Khandelwal — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend & distributed systems engineer. Building AI agents, EDI invoice automation, and scalable microservices."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sahil Khandelwal — Software Engineer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

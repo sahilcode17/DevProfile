@@ -1,0 +1,31 @@
+export const skills = {
+  Languages: ['Java', 'Python', 'Node.js', 'SQL', 'Golang', 'React.js', 'JavaScript', 'TypeScript'],
+  'Cloud & Systems': [
+    'AWS',
+    'GCP',
+    'Microservices',
+    'Spring Boot',
+    'Apache Spark',
+    'Hadoop',
+    'Docker',
+    'CI/CD',
+    'DevOps',
+  ],
+  'AI & Data': [
+    'ReAct Prompting',
+    'CoT Prompting',
+    'Multi-Agent Orchestration',
+    'Vector Context',
+    'Knowledge Extraction',
+    'RAG',
+  ],
+  'Databases & Tools': [
+    'MongoDB',
+    'PostgreSQL',
+    'MySQL',
+    'Redis',
+    'Kafka',
+    'Git',
+    'Linux',
+  ],
+};

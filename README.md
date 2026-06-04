@@ -1,28 +1,37 @@
-# DevProfile
+# Sahil Khandelwal — Portfolio
 
- Hi ,I am a passionate coder with an interest in web development. I have worked on many tech stacks and made projects and contributed to others’ projects too. I have done internship in fintech startup where I honed my mobile app development skills and have volunteered as a mentor for Google code-in and many hackathons I've already contributed to over a dozen projects and assisted with managing projects
+Personal portfolio site. Live at: https://sahilcode17.github.io/DevProfile/
 
-## Check Out the Website 
-Click here - > [DevProfile](https://sahilcode17.github.io/DevProfile/)
+## Tech stack
 
-## Snippets
+- React 18 + Vite
+- Tailwind CSS (custom warm-dark palette)
+- Framer Motion (animations)
+- Lucide React (icons)
 
-<img align="center" height="300px" alt="GIF" src="assets\img\web1.PNG"/>
-<img align="center" height="300px" alt="GIF" src="assets\img\web2.PNG"/>
-<img align="center" height="300px" alt="GIF" src="assets\img\web3.PNG"/>
-<img align="center" height="300px" alt="GIF" src="assets\img\web4.PNG"/>
+## Local development
 
----
+```bash
+npm install
+npm run dev
+```
 
-# Instructions to run :
+## Build & deploy
 
-git clone https://github.com/sahilcode17/DevProfile 
+```bash
+npm run build      # outputs to dist/
+npm run deploy     # publishes dist/ to gh-pages branch
+```
 
-Run on your vscode/any editer 
+Or push to `main` and let the `gh-pages` script handle it.
 
-Make changes in index.html 
+## Project structure
 
-Update to make it more better 
-
----
-
+```
+src/
+├── App.jsx
+├── main.jsx
+├── index.css
+├── data/            # Static content (experience, projects, skills, etc.)
+└── components/      # Section components
+```
