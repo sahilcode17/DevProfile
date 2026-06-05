@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "clean": "rm -rf assets dist"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",

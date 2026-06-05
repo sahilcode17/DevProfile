@@ -5,6 +5,8 @@ export default defineConfig({
   base: '/DevProfile/',
   plugins: [react()],
   build: {
-    outDir: 'dist',
+    outDir: '.',
+    emptyOutDir: false,
+    assetsDir: 'assets',
   },
 });
